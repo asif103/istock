@@ -1,0 +1,70 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./assets/bg_n.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    src: url('./assets/font/SF-Pro-Display-Bold.woff');
+    font-family: 'SF Pro Display', sans-serif;
+}
+.logoIstock{
+    max-width: 180px;
+}
+.logowinIphone{
+    max-width: 120px;
+}
+.titleLogo{
+    max-width: 350px;
+}
+.titleFont{
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.winnerName{
+    width: 350px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shuffleButton{
+    background-image: linear-gradient(#011b1a, #03625a);
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: #ffffff;
+    margin: 20px;
+    border-radius: 20px;
+}
+.nameList{
+    background-color: #ffffff;
+    width: 600px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.listTitle{
+    background: -webkit-linear-gradient(#011b1a, #03625a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 35px;
+}
+.namePill{
+    width: 430px;
+    height: 40px;
+    background-image: linear-gradient(#011b1a, #03625a);
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
